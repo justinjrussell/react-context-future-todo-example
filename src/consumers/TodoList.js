@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../components/Todo";
-import Context from "../context";
+import Context from "../Context";
 import { VisibilityFilters } from "../constants";
 
 const getVisibleTodos = (todos, filter) => {

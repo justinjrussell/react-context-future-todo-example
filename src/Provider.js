@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Context from "../context";
-import { VisibilityFilters } from '../constants';
+import Context from "./Context";
+import { VisibilityFilters } from './constants';
 
 class Provider extends Component {
   state = {

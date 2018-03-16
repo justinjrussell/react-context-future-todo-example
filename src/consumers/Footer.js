@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "../components/Link";
-import Context from "../context";
+import Context from "../Context";
 import { VisibilityFilters } from "../constants";
 
 const Footer = () => {
