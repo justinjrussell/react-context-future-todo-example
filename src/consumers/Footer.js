@@ -5,7 +5,6 @@ import { VisibilityFilters } from "../constants";
 
 const Footer = () => {
   return (
-    <div>
       <Context.Consumer>
         {context => (
           <React.Fragment>
@@ -39,7 +38,6 @@ const Footer = () => {
           </React.Fragment>
         )}
       </Context.Consumer>
-    </div>
   );
 };
 

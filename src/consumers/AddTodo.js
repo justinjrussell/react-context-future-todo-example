@@ -4,7 +4,6 @@ import Context from "../Context";
 const AddTodo = () => {
   let input;
   return (
-    <div>
       <Context.Consumer>
         {context => (
           <form
@@ -22,7 +21,6 @@ const AddTodo = () => {
           </form>
         )}
       </Context.Consumer>
-    </div>
   );
 };
 
